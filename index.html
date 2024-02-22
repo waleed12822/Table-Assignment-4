@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body >
+    <center>
+    <h1>Create Your Account</h1>
+    <br>
+    <p style="color: #C4757C;">*Required Information</p>
+    
+    
+    <form style="background-color: #F6F6F6;"  >
+        <h3 style="background-color: #DDDDDD; letter-spacing: 0.1cm;" >Basic Information</h3>
+        <label for="Email" >Email:</label>
+        <input type="Email" name="Email" id="Email" required style="margin: 6px;">
+        <br>
+        
+        <label for="Password">Password:</label>
+        <input type="password" name="Password" id="Password"  required style="margin: 6px;">
+        <br>
+        
+        <label for="Retype Password">Retype Password:</label>
+        <input type="password" name="Password" id="Password"  required style="margin: 6px;">
+        <br>
+        <label for="First Name">First Name:</label>
+        <input type="text" name="First Name" id="First Name"  required style="margin: 6px;">
+        <br>
+        <label for="Last Name">Last Name:</label>
+        <input type="Last Name" name="Last Name" id="Last Name"  required style="margin: 6px;">
+        <br>
+        
+        <label for="Address">Address:</label>
+        <input type="text" name="Address" id="Address"   required style="margin: 6px;">
+        <br>
+        
+        <label for="City">City:</label>
+        <input type="text" name="City" id="City"  required style="margin: 6px;" >
+        <br>
+        
+        <label for="Provine">Provine:</label>
+        <select name="Provinces" style="margin: 6px;" >
+        <option value="Ba">Balochistan</option>
+        <option value="Kh">Khyber Pakhtunkhwa</option>
+        <option value="Si">Sindh</option>
+        <option value="Pu">Punjab</option>
+        <option value="Is">Islamabad</option>
+        </select>
+        <br>
+        <label for="Country">Country:</label>
+        <input type="text" name="Country" id="Country"  required style="margin: 6px;">
+        
+    </form>
+    <form style="background-color: #F6F6F6;" >
+    <h3 style="background-color: #DDDDDD; letter-spacing: 0.1cm;">Education</h3>
+    <label for="School">School:</label>
+    <input type="text" name="School" id="School"  required style="margin: 6px;">
+    <br>
+    <label for="Program">Program:</label>
+    <input type="text" name="Program" id="Program" style="margin: 6px;">
+    <br>
+    <select name="Education Level" id="Education Level" required style="margin: 6px;">Education Level:
+        <option value="Matriculation">Matriculation</option>
+        <option value="Intermediate">Intermediate</option>
+        <option value="Bachelors or Masters">Bachelors or Masters Equivalent</option>
+        <option value="PHD">PHD</option>
+    </select>
+    <br>
+    <fieldset>
+        <legend style="text-align: center; border-block: 2px;">Education Status</legend>
+        <input type="radio" name="Status" id="Graduated">Graduated
+        
+        <input type="radio" name="Status" id="Currently Enrolled">Currently Enrolled
+        
+        <input type="radio" name="Status" id="Did not Graduate">Did not Graduate
+    </fieldset>
+    <br>
+    <label for="Graduation Date">Graduation Date</label>
+    <input type="text" name="Graduation Date" id="Graduation Date" style="margin: 6px;">
+    </form>
+    <form style="background-color: #F6F6F6;" >
+    <h3 style="background-color: #DDDDDD; letter-spacing: 0.1cm;">Work Experience</h3>
+    <label for="Employer">Employer:</label>
+    <input type="text" name="Employer" id="Employer" style="margin: 6px;">
+    <br>
+    <label for="Job Title">Job Title:</label>
+    <input type="text" name="Job Title" id="Job Title" style="margin: 6px;">
+    <br>
+    <label for="Job Duty" style="vertical-align: top;">Job Duty:</label>
+    <textarea name="" id="" cols="15" rows="10" style="margin: 6px;"></textarea>
+    <br>
+    <label for="Worked Year">Worked Year:</label>
+    <input type="text" name="Worked Year" id="Worked Year" style="margin: 6px;">
+    <form style="background-color: #F6F6F6;" >
+    <h3 style="background-color: #DDDDDD; letter-spacing: 0.1cm;">Attachments</h3>
+    <label for="Related Attachments">Related Attachments:</label>
+    <input type="file" name="User's Files" id="Related Attachments" accept=".doc,.docx,.xml,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+    
+    <input type="reset" name="reset" id="reset" style="background-color: red; color: white; align-self: center;">
+    <input type="submit" name="submit" id="submit" style="background-color: red; color: white; align-self: center;">
+</center>
+</body>
+</html>
